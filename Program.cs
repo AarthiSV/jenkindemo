@@ -12,7 +12,7 @@ namespace TestingEg
             long y = b.credit(bal,20000);
             Console.WriteLine("After Withdraw:{0}", x);
             Console.WriteLine("After credit:{0}", y);
-            Console.WritLine("Success");
+            Console.WriteLine("Success");
         }
     }
 }
