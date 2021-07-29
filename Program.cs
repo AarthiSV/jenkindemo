@@ -7,8 +7,7 @@ namespace TestingEg
         static void Main(string[] args)
         {
             Bank b = new Bank();
-            Console.WriteLine("Enter acc balance");
-            long bal = long.Parse(Console.ReadLine());
+            long bal=50000;
             long x=b.withdraw(bal,10000);
             long y = b.credit(bal,20000);
             Console.WriteLine("After Withdraw:{0}", x);
